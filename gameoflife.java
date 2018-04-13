@@ -72,7 +72,7 @@ public class GameOfLife {
 		public int column;
 	}
 	
-	public void calc() {
+	private void calc() {
 		int aux[][]=new int[12][12];		
 		for(int x=1; x<11;x++) {
 			for(int y=1; y<11;y++) {
